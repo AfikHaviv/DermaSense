@@ -1,0 +1,15 @@
+# Ignore Datasets
+data/
+*.zip
+*.tar.gz
+
+# Ignore Models
+*.pth
+models/
+
+# Ignore System Files
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
