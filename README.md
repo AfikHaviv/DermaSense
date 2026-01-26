@@ -91,9 +91,9 @@ DermaSense/
 
 | Metric | Biased Model | Diverse Model | Improvement |
 | :--- | :--- | :--- | :--- |
-| **Accuracy** | ~68% | **~90%** | **+22%** |
-| **Recall** | ~68% | **~90%** | **+22%** |
-| **F1-Score** | ~70% | **~89%** | **+19%** |
+| **Accuracy** | ~79% | **~90%** | **+11%** |
+| **Recall** | ~79% | **~90%** | **+11%** |
+| **F1-Score** | ~77% | **~89%** | **+12%** |
 
 *Results based on evaluation on the mixed skin tone test set.*
 
