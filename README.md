@@ -96,3 +96,6 @@ DermaSense/
 | **F1-Score** | ~70% | **~89%** | **+19%** |
 
 *Results based on evaluation on the mixed skin tone test set.*
+
+### OneDrive Link to Full processed dataset:
+[DermaSense OneDrive Dataset](https://1drv.ms/f/c/3ed79ca3f40b56f4/IgB015K4RWYmTrvhDElWXHFtATxc64qWoUeuuiJdNtY8U7c?e=wRxDHs)
