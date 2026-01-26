@@ -62,13 +62,17 @@ pip install -r requirements.txt
 DermaSense/
 │
 ├── data/
-│   ├── raw/                  # Original ISIC 2016 Data (Download here)
-│   ├── processed/            # Organized into benign/malignant folders
-│   ├── masks/                # Generated binary masks
-│   └── final_augmented_dataset/ # The output: Synthetic Dark Skin images
+│   ├── raw/                        # Original ISIC 2016 Data (downloadedseparately)
+│   ├── processed/                  # Organized into benign/malignant folders
+│   │   ├──train/                   # Training set
+│   │   └──test/                    # Test set
+│   ├── masks/                      # Generated binary masks
+│   └── final_augmented_dataset/    # The output: Synthetic Dark Skin images
+│       ├──train/                   # Training set
+│       └──test/                    # Test set
 │
 ├── DermaSense.ipynb     # Main Project Notebook (Run this!)
-|
+│
 ├── requirements.txt     # Project dependencies
 │
 └── README.md
@@ -85,10 +89,10 @@ DermaSense/
 
 ## 📊 Results Snapshot
 
-| Metric | Biased Model (Standard) | Diverse Model (Ours) | Improvement |
+| Metric | Biased Model | Diverse Model | Improvement |
 | :--- | :--- | :--- | :--- |
-| **Accuracy** | ~82% | **~95%** | **+13%** |
-| **Recall** | ~54% | **~96%** | **+42%** |
-| **F1-Score** | ~52% | **~92%** | **+40%** |
+| **Accuracy** | ~68% | **~90%** | **+22%** |
+| **Recall** | ~68% | **~90%** | **+22%** |
+| **F1-Score** | ~70% | **~89%** | **+19%** |
 
-*Results based on evaluation on the held-out Dark Skin Test Set.*
+*Results based on evaluation on the mixed skin tone test set.*
